@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Lista1_ex6
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            double p1;
+            double p2;
+            double m;
+
+            Console.Write("informe o valor da p1: ");
+            p1 = double.Parse(Console.ReadLine());
+            Console.Write("informe o valor da p2: ");
+            p2 = double.Parse(Console.ReadLine());
+
+            m = Math.Pow(p1 * p2, 1.0 / 2);
+
+            Console.WriteLine("a média geométrica é = {0}", m);
+            
+        }
+    }
+}

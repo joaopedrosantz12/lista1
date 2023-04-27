@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Lista1_ex1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int b;
+            int h;
+            int a;
+
+            Console.Write("informe a base: ");
+            b = int.Parse(Console.ReadLine());
+            Console.Write("Informe sua altura: ");
+            h = int.Parse(Console.ReadLine());
+            a = b * h;
+            Console.Write("o valor  da área é:{0}",a);
+            
+                
+            
+
+        }
+        
+
+    }
+}
